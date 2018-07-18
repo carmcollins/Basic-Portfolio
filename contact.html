@@ -3,42 +3,46 @@
     <head>
         <meta charset="UTF-8">
         <title>Carmen Collins - Contact</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
     <body>
-        <header>
-            <section>
+        <!-- Header -->
+        <div id="header">
+            <section id="name-box">
                 <h1>Carmen Collins</h1>
             </section>
-            <section>
+            <section id="nav-section">
                 <nav>
                     <a href="index.html">About</a>
                     <a href="portfolio.html">Portfolio</a>
                     <a href="contact.html">Contact</a>
                 </nav>
             </section>
-        </header>
-        <div>
+        </div>
+        <!-- Content -->
+        <div class="content">
             <section>
                 <h2>Contact</h2>
                 <hr>
                 <form>
-                    <label>Name</label>
+                    <label>Name</label><br>
+                    <input type="text" name="name" value="John Smith">
                     <br>
-                    <input>
                     <br>
-                    <label>Email</label>
+                    <label>Email</label><br>
+                    <input type="text" name="email" value="example@gmail.com">
                     <br>
-                    <input>
                     <br>
-                    <label>Message</label>
+                    <label>Message</label><br>
+                    <textarea type="text" name="message"></textarea>
                     <br>
-                    <textarea></textarea>
                     <br>
-                    <button>Submit</button>
+                    <button type="button">Submit</button>
                 </form>
             </section>
         </div>
-        <footer>
+        <!-- Footer -->
+        <footer id="footer">
             <p>Copyright 2018.</p>
         </footer>
     </body>
